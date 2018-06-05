@@ -1,0 +1,63 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form{
+  width: 30%;
+  background-color:#BDC3C7 ;
+
+}
+.titulos{
+  margin: 10px 0;
+
+
+}
+.input-name{
+  margin-right: 10px;
+
+}
+
+.name, .usuario, .password, .contraseña-confir, .fecha ,.sexo, .telefono,.correo-anterior,.pais{
+  margin:10px 10px;
+  width: 100%;
+}
+.usuario{
+  width: 100%;
+}
+.usuario-email{
+  display: block;
+  width: 95%;
+  margin:10px 0;
+  text-align: right;
+
+}
+.contraseña, .contraseña-2,.tel-input, .correo-ant,.pais-select,.sexo-select{
+  display: block;
+  width: 95%;
+  margin: 10px 0;
+}
+.fecha2{
+
+width: 98%;
+display: flex;
+justify-content: space-around;
+flex-direction:row;
+align-items:center;
+margin: 10px 0;
+
+}
+.dia,.año{
+  width: 20%;
+  margin-right: 5px;
+}
+input:last-child{/*preguntar pq no me lo hace con .fecha2*/
+  margin-right: 0;
+}
+
+.mes{
+  width: 45%;
+}
